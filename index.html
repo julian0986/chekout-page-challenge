@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Checkout-Page-Challenge</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Checkout</h1>
+    </header>
+    <main id="contenedor">
+        <section id="seccion1">
+            <div id="producto1">
+                <div id="foto1">
+                    <img src="./assets/img/photo1.png" alt="">
+                </div>
+                <div class="descripcion">
+                    <h2>Vintage Backbag</h2>
+                    <h3>$54.99 <span>$94.99</span></h3>
+                    <div class="botones">
+                        <p><a href="#">-</a>1 <a href="#">+</a></p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="producto2">
+                <div id="foto2">
+                    <img src="./assets/img/photo2.png" alt="">
+                </div>
+                <div class="descripcion">
+                    <h2>Levi Shoes</h2>
+                    <h3>$74.99 <span>$124.99</span></h3>
+                    <div class="botones">
+                        <p><a href="#">-</a> 1 <a href="#">+</a></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="totales">
+                <hr>
+                <div class="precios">
+                    <p>Shipping</p>
+                    <p>$19</p>
+                </div>
+                <hr>
+                <div class="precios">
+                    <p>Total</p>
+                    <p>$148.98</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="formulario">
+            <h3>Contact information</h3>
+            <form>
+                <label for="email">E-mail</label><br>
+                <input class="inputs" type="text" name="email" placeholder="Enter your email..."><br>
+                <label for="phone">Phone</label><br>
+                <input class="inputs" type="text" name="phone" placeholder="Enter your phone..."><br>
+            </form>
+            <h3>Shipping address</h3>
+            <form>
+                <label for="name">Full name</label><br>
+                <input class="inputs" type="text" name="name" placeholder="Julian Calle"><br>
+                <label for="address">Address</label><br>
+                <input class="inputs" type="text" name="Address" placeholder="Your address..."><br>
+                <label for="city">City</label><br>
+                <input class="inputs" type="text" name="city" placeholder="Your city..."><br>
+                <div id="country">
+                    <div>
+                        <label for="country">Country</label><br>
+                        <input class="inputs" type="text" name="country" placeholder="Your contry..."><br>
+                    </div>
+                    <div>
+                        <label for="postal">Postal code</label><br>
+                        <input class="inputs" type="text" name="postal" placeholder="Your postal code..."><br>
+                    </div>
+
+                </div>
+                <div id="check">
+                    <input type="checkbox" name="checkbox">
+                    <label for="checkbox">Save this information for next time</label>
+                </div>
+            </form>
+            <div id=btn>
+                <div id="btncontinue">
+                    <a href="#">Continue</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            created by <a href="https://github.com/julian0986/404-NOT-FOUND">julian0986</a> - devChallenges.io
+        </p>
+    </footer>
+</body>
+
+</html>
